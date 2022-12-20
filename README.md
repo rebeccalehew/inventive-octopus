@@ -12,7 +12,7 @@ This online portfolio will be used by me indefinitely as potential employers lik
 
 As is, this application can be used by potential employers to learn about myself, view work samples, and contact me via email, LinkedIn, and GitHub.
 
-![screenshot](./Assets/Images/portfolio-screenshot.png)
+![screenshot](./assets/images/portfolio-screenshot.png)
 
 
 ## Credits
