@@ -1,7 +1,16 @@
+/* How to reference all Google font families
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Seaweed Script', cursive; */
+
 /* Establishes CSS variables for app colors. */
 :root {
-    --white: #faf9f7;
-    --pink: #962140;
+    --white: #fff;
+    --gray: #bfc3cb;
+    --sand: #c0a59c;
+    --lightTeal: #84acb0;
+    --teal: #4a8088;
+    --darkTeal: #2d5a66;
 }
 
 * {
@@ -16,9 +25,9 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Marker Felt', fantasy;
-    background-color: var(--pink);
-    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--darkTeal);
+    color: var(--lightTeal);
 }
 
 h1 {
@@ -30,7 +39,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: Arial, sans-serif;
+    font-family: 'Lora', serif;
     font-size: 24px;
     list-style-type: none;
 }
@@ -41,7 +50,7 @@ nav ul li {
 }
 
 a {
-    color: var(--white);
+    color: var(--lightTeal);
     text-decoration: none;
 }
 
@@ -76,6 +85,11 @@ main {
     margin-left: 10px;
 }
 
+p {
+    font-family: 'Lora', serif;
+    color: var(--white);
+}
+
 .work-samples {
     margin-right: 20px;
     padding: 20px;
@@ -83,20 +97,21 @@ main {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: Arial, sans-serif;
-    background-color: var(--pink);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--lightTeal);
 }
 
 .projectA, .projectB, .projectC {
     margin-bottom: 32px;
-    color: var(--white);
+    color: var(--darkTeal);
 }
 
 .projectA h3, .projectB h3, .projectC h3 {
     margin-bottom: 10px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
+    color: var(--darkTeal);
 }
 
 .projectA img, .projectB img, .projectC img {
@@ -114,9 +129,9 @@ main {
     margin-bottom: 20px;
     padding: 40px;
     height: auto;
-    font-family: Arial, sans-serif;
-    background-color: var(--pink);
-    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--lightTeal);
+    color: var(--darkTeal);
 }
 
 .aboutMe img, .work img, .contactMe img {
@@ -130,41 +145,37 @@ main {
 
 .aboutMe h2, .work h2, .contactMe h2 {
     margin-bottom: 20px;
-    font-family: 'Marker Felt', fantasy;
+    font-family: 'Poppins', sans-serif;
     font-size: 42px;
 }
 
 button {
     font-size: 20px;
-    font-weight: bold;
-    background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--darkTeal);
     margin: 10px;
     margin-top: 20px;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 button a {
     text-decoration: none;
-    color: var(--pink);
-}
-
-/* Buttons zoom on hover. Each button links to a different way to contact me. */
-button:hover {
-    transform: scale(1.5);
-    text-decoration: underline;
+    color: var(--white);
 }
 
 footer h2 {
     font-size: 20px;
-    color: var(--pink);
+    color: var(--lightTeal);
 }
 
 footer {
     padding: 30px;
     clear: both;
-    font-family: Arial, sans-serif;
+    font-family: 'Lora', serif;
     text-align: center;
-    color: var(--pink)
+    background-color: var(--darkTeal);
+    color: var(--lightTeal);
 }
 
 /* Should make application responsive based on screen size. */
