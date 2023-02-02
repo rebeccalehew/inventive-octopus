@@ -178,6 +178,10 @@ footer {
     color: var(--lightTeal);
 }
 
+footer p {
+    color: var(--lightTeal);
+}
+
 /* Should make application responsive based on screen size. */
 @media screen and (max-width: 992px) {
     .main {
