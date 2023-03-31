@@ -120,11 +120,6 @@ p {
     max-width: 150px;
 }
 
-/* Zooms in on project photos (currently placeholders) when hover. */
-.projectA:hover img, .projectB:hover img, .projectC:hover img {
-    transform: scale(1.5);
-}
-
 .aboutMe, .work, .contactMe {
     margin-bottom: 20px;
     padding: 40px;
