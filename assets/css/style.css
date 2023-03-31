@@ -138,11 +138,6 @@ p {
     max-height: 270px;
 }
 
-/* Zooms in on project photo when hover. Click on photo to link to deployed app of finished project.*/
-.work:hover img {
-    transform: scale(1.5);
-}
-
 .aboutMe h2, .work h2, .contactMe h2 {
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
